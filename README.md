@@ -1,6 +1,14 @@
 # BLPickView
 pickView的封装，将数据源与代理抛出
 
+##使用方法：
+
+######pod 'BLPickerView'
+
+或
+
+下载拖入项目
+
 使用方法： 1.初始化
 ```
 _pickView = [[BLPickerView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 150)];
