@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'BLPickerView'
 s.version = '1.0.0'
-s.license = { :type => "MIT"}
+s.license = { :type => "MIT", :file => "LICENSE"}
 s.summary = 'A PickerView on iOS.'
 s.homepage = 'https://github.com/boundlessocean/pickView'
 s.authors = { 'ocean' => 'boundlessocean@icloud.com' }
