@@ -15,22 +15,22 @@ pickView的封装，将数据源与代理抛出
 2.实现数据源代理的相关方法提供数据
 
 ```
-- (NSInteger)bl_numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+-(NSInteger)bl_numberOfComponentsInPickerView:(UIPickerView *)pickerView{
 }
 
-- (NSInteger)bl_pickerView:(UIPickerView *)pickerView
+-(NSInteger)bl_pickerView:(UIPickerView *)pickerView
    numberOfRowsInComponent:(NSInteger)component{
 }
 
-- (NSString *)bl_pickerView:(UIPickerView *)pickerView
+-(NSString *)bl_pickerView:(UIPickerView *)pickerView
                 titleForRow:(NSInteger)row
                forComponent:(NSInteger)component{
 }
 
-- (CGFloat)bl_pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component{
+-(CGFloat)bl_pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component{
 }
 
-- (void)bl_pickerView:(UIPickerView *)pickerView
+-(void)bl_pickerView:(UIPickerView *)pickerView
          didSelectRow:(NSInteger)row
           inComponent:(NSInteger)component{
 }
